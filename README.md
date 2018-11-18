@@ -1,13 +1,38 @@
-# 18.04
+# UBUNTU18.04
+'''
+#下載XAMPP安裝檔
+
 sudo wget https://www.apachefriends.org/xampp-files/7.2.11/xampp-linux-x64-7.2.11-0-installer.run
 
+#給予XAMPP安裝檔執行權限
 
 sduo chmod 777 xampp-linux-x64-7.2.11-0-installer.run
 
+#執行XAMPP安裝檔
 
 sudo ./xampp-linux-x64-7.2.11-0-installer.run
 
+'''
 
+'''
+sudo wget https://github.com/ethicalhack3r/DVWA/archive/master.zip
+
+
+
+sudo chmod 777 master.zip
+
+
+sudo unzip master.zip
+
+
+
+sudo mv DVWA-master /opt/lampp/htdocs
+
+
+'''
+
+'''
+#進入至/opt/lampp/htdocs
 
 cd /opt/lampp/htdocs/DVWA-master/config
 
