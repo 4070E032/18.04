@@ -52,6 +52,9 @@ sudo mv config.inc.php.dist config.inc.php
 
 #下載編譯程式
 
+sudo apt-get install vim
+
+#修改php.ini內容  
 
 sudo vim config.inc.php
 
@@ -67,7 +70,7 @@ $_DVWA[ 'recaptcha_private_key' ] = '6LfQNCYTAAAAAHnvqCzw2lG95FD-RfomKHWf7Zob';
 $_DVWA[ 'default_security_level' ] = 'low';
 
 
-#修改php.ini內容  
+
 
 
 sudo vim /opt/lampp/etc/php.ini
