@@ -57,9 +57,13 @@ sudo vim config.inc.php
 
 
 $_DVWA[ 'db_user' ] = 'root';
+
 $_DVWA[ 'db_password' ] = '';
+
 $_DVWA[ 'recaptcha_public_key' ] = '6LfQNCYTAAAAALx0oAwtLHJlzNHXTKLl2UZjQjw-';
+
 $_DVWA[ 'recaptcha_private_key' ] = '6LfQNCYTAAAAAHnvqCzw2lG95FD-RfomKHWf7Zob';
+
 $_DVWA[ 'default_security_level' ] = 'low';
 
 
